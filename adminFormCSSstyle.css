@@ -1,0 +1,39 @@
+/*Olin Saint-Louis , Agnieszka Mandosik*/
+body
+{
+  font: normal 14px/17px Arial, sans-serif;
+  color: black;
+  background-color: #cc0000;
+}
+#container {
+  width: 980px;
+  margin: 0 auto;
+}
+div{
+  margin-top: 20px;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 42px;
+}
+.btn-group button {
+    background-color: black; /* Green background */
+    border: 3px solid gray; /* Green border */
+    color: white; /* White text */
+    padding: 17px 25px; /* Some padding */
+    border-radius: 10px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-group button:hover {
+    background-color: #DDEEEE;
+}
+
+

@@ -1,0 +1,258 @@
+<!--Styling will start with the esu banner at top of page-->      
+	
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#header {
+  width:100%;
+  overflow:hidden; /* contain floats */
+  height:200px;
+}
+.inner, #wrap {
+  width:100%;
+  margin:auto;
+  background-color:#bd2925;color:white;padding:2%;
+}					
+div#banner { 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ background-color: #DDEEEE; 
+ width: 100%; 
+}
+div#banner-content { 
+ width: 800px; 
+ margin: 0 auto; 
+ padding: 10px; 
+ border: 1px solid #000;
+}
+div#main-content { 
+  padding-top: 70px;
+}
+#navbar{
+ position:relative;
+ width:100px;
+ height:auto;
+ background-color: #000; 
+  font-size: 11px;
+  color: #333;
+ }
+.navbar {
+    overflow: hidden;
+	font-family: Arial;
+    background-color: #ffffff;
+  /* Set the navbar to fixed position below ESU*/
+    width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+	color: black;
+}
+/* Change background on mouse-over options About,Acade.,ect */
+.navbar a:hover {
+    background: #ddd;
+}
+div.container1 {
+    margin: auto;
+    height: 100%;
+    width: 75%;
+    border: 1px solid gray;
+    padding: 0px;
+    background: #fff;
+    color: black;
+} 
+section{
+  background:url(https://orig00.deviantart.net/e958/f/2014/186/4/8/geometrical_pattern_black_by_xphysicxx-d7pb4mz.jpg);
+  background-size: 100% 100%;;
+  height: auto;
+}
+
+/*Here is the style for what goes in the middle of the body*/
+div.container2 {
+    margin: auto;
+    border: 3px solid red;
+    padding: 5px;
+} 
+div.container3 {
+    margin: auto;
+    padding: 5px;
+} 
+input[type=text1] {
+    width: 11%;
+    padding: 12px;
+    margin: 1px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+input[type=text2] {
+    width: 16%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+input[type=text3] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+    /*padding-left: 7cm;*/
+}
+input[type=text4] {
+	margin: 8px;
+    padding: 12px;
+    width: 12%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+input[type=text5] {
+    width: 42%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+input[type=text6] {
+    width: 7%;
+    padding: 12px;
+    margin: 1px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.navbar {
+    overflow: hidden;
+	font-family: Arial;
+    width: 100%; /* Full width */
+}
+.star {
+    color: red;
+}
+p.a {
+    font: 17px sans-serif;
+	color: gray;
+}
+/*Inside container 3 formating labels*/
+table, th {
+	height: 8px;
+	font:14px serif
+    text-align: left;
+
+}
+
+a4{
+	font: bold 14px serif;
+	padding-right: 8cm;
+
+}
+a8{
+	color: #fff;
+    text-shadow: 12px -16px gray;
+	padding-right: 1.8cm;
+    text-align: left;
+}
+a9{
+	color: #fff;
+    text-shadow: 12px -16px gray;
+    text-align: left;
+}
+a10{
+	color: #fff;
+    text-shadow: 12px -8px gray;
+    padding-right: 1.3cm;
+    text-align: left;
+}
+a11{
+	color: #fff;
+    text-shadow: 12px -8px gray;
+    padding-right: 1.3cm;
+    text-align: left;
+}
+#textC{
+    font: bold 17px sherif;
+    line-height:25px;
+
+}
+#pidel{
+    font: bold 14px sherif;
+}
+
+fieldset{
+    border: 0;
+}
+
+input[type="radio"]{   
+    vertical-align: middle;
+    padding: 8px;
+    margin: 8px;
+ }
+ #building{
+    margin-right: 60px;
+ }
+
+ select{
+     margin-top: 18px;
+    border-radius: 10px;
+    padding: 10px 25px;
+   overflow: auto;
+ }
+ .zero{
+    margin-top: 18px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: #c0d3f7;
+    font: bold 14px/17px Arial, sans-serif;
+ }
+
+.container4{
+    padding-top: 20px;
+ }
+ .container5{
+    padding-top: 50px;
+ }
+ td{    
+    padding-bottom: 10px;
+ }
+ .userdata{
+    width:45px
+}
+ .q{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .ch{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .descr{
+    padding-left: 50px;
+ }
+ .choose{
+    padding-bottom: 10px;
+ }
+
+ 
+
+ 
+
+ 
+
+ 
+
